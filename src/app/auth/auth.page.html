@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div fxLayoutAlign = "center center" fxFlexFill style="background-image: url(https://images.unsplash.com/photo-1613017393480-4886d9e4a3b6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MXwxfDB8MXxyYW5kb218fHx8fHx8fA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=2200);">
+   <mat-card   class="main-box">
+     <h1 class="mat-head">Login </h1>
+     <br>
+    <form fxLayoutAlign ="stretch" fxLayout = "column">
+      <label for="uEmail"><strong>Your Email</strong></label>
+      
+      <mat-form-field appearance = "outline">
+        <input matInput placeholder="example@example.com" required type="email">
+      </mat-form-field>
+    
+       <label for="uPass"><strong>Your Password</strong> </label>
+       
+      <mat-form-field appearance = "outline">
+        
+        <input matInput placeholder="your password here" required type="password">
+      </mat-form-field>
+  
+        <button mat-raised-button type="submit" color ="primary">Submit</button>
+        <br>
+        <a href="#" fxLayoutAlign = "center">Forgot Password? click here </a>
+        <br>
+        <br>
+        <br>
+        <a href="#" fxLayoutAlign = "center">Don't have account . Signup Here </a>
+     </form>
+    
+   </mat-card>
+</div>
+</ion-content>
